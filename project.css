@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+
+#prepare {
+    text-align: center;
+}
+
+#go_home {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#prepare_img {
+    width: 800px;
+    /* height: 400px; */
+}
