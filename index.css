@@ -22,7 +22,10 @@ h1 {
 }
 
 .project_img {
+    display: inline-block;
     width: 80%;
+    height: 80%;
+    object-fit: contain;
 }
 
 .project_img:after {
@@ -38,18 +41,20 @@ h1 {
 }
 
 .project_button {
-    border: 3px solid #77af9c;
+    border: 3px solid yellowgreen;
     background-color: white;
     cursor: pointer;
     font-size: 15px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #77af9c;
+    font-weight:600;
+    color: yellowgreen;
     width: 200px;
     height: 30px;
-
+    border-radius: 15px;
 }
 
 .project_button:hover {
-    background-color: #77af9c;
+    background-color: yellowgreen;
     color: white;
+    font-weight: bold;
 }

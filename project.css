@@ -1,17 +1,36 @@
 h1 {
+    margin-top: 100px;
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #prepare {
     text-align: center;
 }
 
-#go_home {
-    text-align: center;
-    margin-bottom: 100px;
+#prepare_img {
+    width: 500px;
 }
 
-#prepare_img {
-    width: 800px;
-    /* height: 400px; */
+#go_home {
+    text-align: center;
+}
+
+#go_home_button {
+    border: 3px solid rgb(255, 174, 0);
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:600;
+    color: rgb(255, 174, 0);
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#go_home_button:hover {
+    background-color: rgb(255, 174, 0);
+    color: white;
+    font-weight: bold;
 }
